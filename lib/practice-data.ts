@@ -7,6 +7,7 @@ export const practiceData = {
   address: "123 Medical Street, Sydney NSW 2000",
   phone: "(02) 1234 5678",
   email: "info@citymedical.com.au",
+  logo: "", // Added logo property (empty string for now)
   openingHours: {
     Monday: "8:00 - 18:00",
     Tuesday: "8:00 - 18:00",
