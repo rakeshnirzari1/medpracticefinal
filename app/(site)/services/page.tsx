@@ -4,7 +4,7 @@ import type React from "react"
 
 import { Card, CardContent } from "@/components/ui/card"
 import { practiceData } from "@/lib/practice-data"
-import { Stethoscope, Shield, Activity, Heart, UserRound, Brain, ArrowRight } from 'lucide-react'
+import { Stethoscope, Shield, Activity, Heart, User, Brain, ArrowRight } from 'lucide-react'
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
@@ -13,7 +13,7 @@ const iconMap: Record<string, React.ReactNode> = {
   shield: <Shield className="h-16 w-16 text-primary" />,
   activity: <Activity className="h-16 w-16 text-primary" />,
   heart: <Heart className="h-16 w-16 text-primary" />,
-  user: <UserRound className="h-16 w-16 text-primary" />,
+  user: <User className="h-16 w-16 text-primary" />,
   brain: <Brain className="h-16 w-16 text-primary" />,
 }
 
